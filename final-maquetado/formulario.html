@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>&#128388; Formulario</title>
+</head>
+<body>    
+    <header>
+        <h1 class="tituloform">SORTEO &#x1f389;!!</h1>
+    </header>
+    <main>
+        <p class="participa">
+            ¡Participa y gana entradas para el espectacular show en vivo de Canserbero en Argentina! <br>
+            Prepárate para disfrutar de su talento y energía en un concierto que promete ser épico. <br>
+            Solo debes seguir unos sencillos pasos para participar en nuestro sorteo.<br>
+            No te pierdas la oportunidad de vivir la magia de Canserbero en vivo. <br> ¡Únete al sorteo y prepárate para una noche llena de emociones y buena música!
+        </p>
+    </main>
+    <div class="form">
+        <form action="gracias.html" method="get" enctype="multipart/form-data">
+                <h2 class="formtitulo">Formulario</h2>
+                <span>Nombre</span><br>
+                <input type="text" name="nombre" required><br>
+                <br><span>Apellido</span><br>
+                <input type="text" name="apellido" required><br>
+                <br><span>Correo</span><br>
+                <input type="email" name="email" required><br>
+                <br><span>Género: </span><br>
+                <label for="hombre">Masculino</label>
+                <input id="hombre" name="genero" type="radio" value="hombre" required>
+                <label for="mujer">Femenino</label> 
+                <input id="mujer" name="genero" type="radio" value="mujer" required><br>
+                <br><span>Elija el lugar en el que sueña estar:</span><br>
+                <br><label for="entrada_vip"><input type="checkbox" id="entrada_vip" name="entradas[]" value="vip"> Entrada VIP</label><br>
+                <br><label for="entrada_general"><input type="checkbox" id="entrada_general" name="entradas[]" value="general"> Entrada General</label><br>
+                <br><label for="entrada_palco"><input type="checkbox" id="entrada_palco" name="entradas[]" value="palco"> Palco</label><br>
+                <br><label for="entrada_platea"><input type="checkbox" id="entrada_platea" name="entradas[]" value="platea"> Platea</label><br>
+                <br><label for="foto">Adjuntar imagen DNI:</label><br>
+                <br><input type="file" name="foto" id="foto" accept="image/*" required><br>
+                <br><input type="submit" value="Enviar">
+        </form>
+    </div>
+        <footer class="footerform">
+            <a href="index.html">Volver</a>
+        </footer>
+</body>
+</html>

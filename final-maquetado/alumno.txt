@@ -1,0 +1,50 @@
+											INFORME
+
+										Nombre: Federico
+										Apellido: Dominguez
+										DNI: 43242467
+										Materia: Maquetado y desarrollo  web
+										Carrera: Diseño y programación web
+										Comisión: C
+										Año: 2024
+										Docente: Mabel Garcia
+										Fecha de final: 12/12/2024
+
+Esta web trata de una página web dedicada a Canserbero, estructurada en tres secciones principales. La primera es la de inicio, donde se encuentra información sobre su vida y legado. 
+La segunda sección es su discografía, que presenta los álbumes que publicó. Finalmente, hay un formulario en el que los visitantes pueden participar en un sorteo.
+Las tecnologias utilizadas para este examen fueron:
+- Html
+- Css
+- Media query (@media), aplica en el Css
+
+Soporte de navegadores: 
+- Google Chrome Versión 131.0.6778.86 (Build oficial) (64 bits)
+- Microsoft Edge Versión 131.0.2903.63 (Compilación oficial) (64 bits)
+
+Target:
+Esta página web estaría dirigida a un target que comparte afinidad con su música, su mensaje, y su estilo de vida. Este sería el perfil de tu público objetivo:
+Edad 15 a 35 años: 
+Jóvenes y adultos jóvenes que crecieron escuchando su música o que se sienten identificados con los temas sociales, filosóficos y emocionales que aborda.
+Nivel socioeconómico
+Nivel medio a medio-bajo: Aunque su música trasciende las clases sociales, su mensaje suele resonar más con personas que viven o entienden la realidad de 
+las desigualdades sociales y económicas, características de América Latina.
+Intereses y costumbres:
+- Música y arte urbano: Fanáticos del rap, hip-hop y la música independiente.
+- Interés por temas sociales y filosóficos: Personas que buscan reflexionar sobre problemas sociales, emociones humanas, y cuestionar el sistema.
+- Afición por el contenido alternativo: Prefieren música con mensaje antes que contenido comercial.
+
+Breakpoints:
+
+Mobile: 430px a 480px
+PC: 1280px a 1310px
+
+Los cambios más notorios:
+- Ampliación del espacio: Más márgenes y alineación central en pantallas grandes.
+- Mayor tamaño en textos e imágenes: Los elementos se adaptan para aprovechar mejor la pantalla.
+- Interactividad en la sección discografía: Las imágenes de los álbumes tienen un efecto de hover.
+- Mejora en el formulario: Más espacio y diseño optimizado para una experiencia visual cómoda.
+-El boton de VOLVER en el formulario, en los breakpoints grandes no aparece.
+-En los títulos el color de la tipografia cambia.
+-Las imagenes de la sección discografia, en los breakpoints mas grandes al tocar cualquier imagen se sobrepone ante las otras.
+
+El diseño para pantallas grandes está más ordenado, espacioso, y con un enfoque en la legibilidad y usabilidad. 
